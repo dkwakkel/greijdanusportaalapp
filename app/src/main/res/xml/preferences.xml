@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Settings" >
+        <EditTextPreference
+            android:title="Gebruiker"
+            android:key="username"/>
+        <EditTextPreference
+            android:title="Wachtwoord"
+            android:key="password"/>
+
+        <ListPreference
+            android:title="Tijd tussen verversen"
+            android:key="pollFrequency"
+            android:entries="@array/updateFrequency"
+            android:entryValues="@array/updateFrequencyValues"
+            />
+    </PreferenceCategory>
+
+</PreferenceScreen>
