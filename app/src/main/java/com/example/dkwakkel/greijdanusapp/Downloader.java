@@ -21,7 +21,7 @@ import java.util.Scanner;
 
 class Downloader {
 
-    private static final String WEBSITE_URL = "https://Xuw.greijdanus.nl/";
+    private static final String WEBSITE_URL = "https://uw.greijdanus.nl/";
 
     private final ContextActivity context;
 

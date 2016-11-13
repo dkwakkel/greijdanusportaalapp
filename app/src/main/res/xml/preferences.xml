@@ -7,7 +7,8 @@
             android:key="username"/>
         <EditTextPreference
             android:title="Wachtwoord"
-            android:key="password"/>
+            android:key="password"
+            android:inputType="textPassword" />
 
         <ListPreference
             android:title="Tijd tussen verversen"

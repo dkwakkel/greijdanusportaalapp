@@ -30,9 +30,13 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.example.dkwakkel.greijdanusapp.ScheduleActivity">
-        </activity>
+        <activity android:name="com.example.dkwakkel.greijdanusapp.ScheduleActivity" />
 
+        <receiver android:name="com.example.dkwakkel.greijdanusapp.NetworkStateReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
